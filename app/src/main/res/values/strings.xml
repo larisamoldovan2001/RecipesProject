@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ProiectAndroid</string>
+    <string name="title_activity_feluri_de_mancare">FeluriDeMancare</string>
+    <string name="tab_text_1">Supe/Ciorbe</string>
+    <string name="tab_text_2">Mâncăruri</string>
 </resources>
