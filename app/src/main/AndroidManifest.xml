@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProiectAndroid">
-        <activity android:name=".recipes.Descrieri.Descriere9"></activity>
+        <activity android:name=".recipes.Descrieri.Descriere6"></activity>
+        <activity android:name=".recipes.Descrieri.Descriere5" />
+        <activity android:name=".recipes.Descrieri.Descriere4" />
+        <activity android:name=".recipes.Descrieri.Descriere12" />
+        <activity android:name=".recipes.Descrieri.Descriere11" />
+        <activity android:name=".recipes.Descrieri.Descriere10" />
+        <activity android:name=".recipes.Descrieri.Descriere3" />
+        <activity android:name=".recipes.Descrieri.Descriere9" />
+        <activity android:name=".recipes.Descrieri.Descriere8" />
+        <activity android:name=".recipes.Descrieri.Descriere7" />
         <activity android:name=".recipes.Descrieri.Descriere2" />
         <activity android:name=".recipes.Descrieri.Descriere1" />
         <activity

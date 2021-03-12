@@ -40,7 +40,7 @@
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="300dp"
         android:rotationX="4"
-        android:text="Joc"
+        android:text="Quiz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.239"

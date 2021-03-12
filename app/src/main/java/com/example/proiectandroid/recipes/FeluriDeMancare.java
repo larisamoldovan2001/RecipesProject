@@ -3,6 +3,7 @@ package com.example.proiectandroid.recipes;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -13,6 +14,10 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
 public class FeluriDeMancare extends AppCompatActivity {
+
+    private AlertDialog.Builder dialogBuilder;
+    private AlertDialog dialog;
+    private
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

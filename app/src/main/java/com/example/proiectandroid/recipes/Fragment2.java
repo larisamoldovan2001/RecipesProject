@@ -10,14 +10,15 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 
 import com.example.proiectandroid.R;
-import com.example.proiectandroid.recipes.Descrieri.Descriere2;
+import com.example.proiectandroid.recipes.Descrieri.Descriere4;
+import com.example.proiectandroid.recipes.Descrieri.Descriere5;
+import com.example.proiectandroid.recipes.Descrieri.Descriere6;
 
 public class Fragment2 extends Fragment {
 
     private TextView textView;
     private TextView textView2;
     private TextView textView3;
-    private TextView textView4;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -29,10 +30,29 @@ public class Fragment2 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         textView = (TextView) view.findViewById(R.id.textView);
+        textView2 = (TextView) view.findViewById(R.id.textView6);
+        textView3 = (TextView) view.findViewById(R.id.textView7);
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), Descriere2.class);
+                Intent intent=new Intent(getContext(), Descriere4.class);
+                startActivity(intent);
+            }
+        });
+
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), Descriere5.class);
+                startActivity(intent);
+            }
+        });
+
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), Descriere6.class);
                 startActivity(intent);
             }
         });

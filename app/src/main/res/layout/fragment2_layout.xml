@@ -7,24 +7,21 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ciuperci umplute la gratar" />
+        android:text="Pește la cuptor cu sos alb"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Friptură de miel" />
+        android:text="Friptură de miel"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lasagna" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pește la cuptor cu sos alb" />
+        android:text="Lasagna"
+        android:textSize="20sp" />
 
 </LinearLayout>
